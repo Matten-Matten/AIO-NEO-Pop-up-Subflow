@@ -12,6 +12,8 @@ Dieser Subflow nähert sich der Configurations Maske aus dem AIO Creator Neo von
 
 [> Subflow in Redmatic laden <](https://github.com/Matten-Matten/AIO-NEO-Pop-up-Subflow/blob/master/AIO-NEO-Pop-up-Subflow.json)
 
+[> Subflow Beispiel in Redmatic laden <](https://github.com/Matten-Matten/AIO-NEO-Pop-up-Subflow/blob/master/AIO-NEO-Pop-up-Subflow-bsp.json)
+
 ---
 ![picture](https://raw.githubusercontent.com/Matten-Matten/AIO-NEO-Pop-up-Subflow/main/picture/AIO%20Neo%20open%20PU_1.png)
 
@@ -24,12 +26,6 @@ Dieser Subflow nähert sich der Configurations Maske aus dem AIO Creator Neo von
 ![picture](https://raw.githubusercontent.com/Matten-Matten/AIO-NEO-Pop-up-Subflow/main/picture/AIO%20Neo%20open%20PU_5.png)
 
 ![picture](https://raw.githubusercontent.com/Matten-Matten/AIO-NEO-Pop-up-Subflow/main/picture/AIO%20Neo%20open%20PU_6.png)
-
----
-
-## Beispiel:
-
-https://github.com/Matten-Matten/AIO-NEO-Pop-up-Subflow/blob/master/AIO-NEO-Pop-up-Subflow-bsp.json
 
 
 ---
