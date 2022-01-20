@@ -1250,34 +1250,6 @@
         "icon": "node-red/hash.svg"
     },
     {
-        "id": "b7515f3b.6c3b",
-        "type": "comment",
-        "z": "52e05b12.b35624",
-        "name": "ausgearbeitete Einstellungen",
-        "info": "Position:\n\tAusrichtung = Seite links oben,Seite links mittig,Seite links unten,Seite mittig oben,Seite zentriert,Seite mittig unten,Seite rechts oben,Seite rechts mittig,Seite rechts unten\n\talign\t\t= left_top\t\t  ,left_center\t\t ,left_bottom\t   ,center_top\t\t ,---\t\t\t ,center_bottom\t\t,right_top\t\t  ,right_center\t\t  ,right_bottom\t\n\n\t\n\tAusrichtung = Button direkt darüber,Button unterhalb ,Button oberhalb,Button links davon,Button rechts davon\n\talign\t\t= *button_center\t   ,*button_bottom\t ,*button_top\t ,*button_left\t    ,*button_right\n\t\n\tAursichten nach = Button,Seite/ignoriert\n\talignTo \t\t= parent,page\n\t\n\tVersatz X-Achse = -10000 bis 10000 in px (0)\n\tpos_x\n\t\n\tVersatz X-Achse = -10000 bis 10000 in px (0)\n\tpos_y\n\t\nHintergrund:\n\tFarbe = #ffffff\n\tbg_color\n\t\n\tDeckkraft = 0-1 0.6\n\tbg_alpha\n\nAnimation:\n\tbeim öffnen:\n\t\tAnimation = ---,ausrollen ,einblenden,von links hereinbewegen,von oben hereinbewegen,von rechts hereinbewegen,von unten hereinbewegen\n\t\topen\t  = ---,slide-down,fade-in\t ,slide-from-left\t\t ,slide-from-top\t\t,slide-from-right\t\t ,slide-from-bottom\n\t\t\n\t\tDauer = 0-10000 ms (400)\n\t\topen_duration\n\t\t\n\tbeim schließen:\n\t\tAnimation = ---,einrollen,ausblenden,nach links hinausbewegen,nach oben hinausbewegen,nach rechts hinausbewegen,nach unten hinausbewegen\n\t\tclose\t  = ---,slide-up ,fade-out\t,slide-to-left\t\t\t ,slide-to-top\t\t\t ,slide-to-right\t\t   ,slide-to-bottom\n\t\t\n\t\tDauer = 0-10000 ms (400)\n\t\tclose_duration\n\nStil:\n\tUmrandung:\n\t\tRahmen-Dicke = 0-100 px (0)\n\t\tborder\n\t\t\n\t\tRahmen-Farbe = #ffffff\n\t\tsolid\n\t\t\n\tEcken:\n\t\tAbrundung = 0-100 px (0)\n\t\tradius\n\t\t\n\tSchatten:\n\t\tVersatz X = 0-100 px (0)\n\t\tshadow_x\n\t\t\n\t\tVersatz Y = 0-100 px (0)\n\t\tshadow_y\n\t\t\n\t\tUnschärfe = 0-100 px (0)\n\t\tshadow_u\n\t\t\n\t\tAusbreitung = 0-100 px (0)\n\t\tshadow_a\n\t\t\n\t\tFarbe = #00000\n\t\tshadow_rgb\n\t\t\n\t\tDeckkraft = 0-1 (0.8)\n\t\tshadow_d\n\t\t\nCSS:\n\tbackground-color: transparent; (als text)\n\tCSS\n\t\n\nVerschiedenes:\n\tPop-up schließen nach = 0-10000 sek. (0)\n\tcloseAfter\n\t\n\tübergeordnete Seite bzw Pop-Up pausieren = true/false (false) als harken\n\tpauseParent\n\t\n\tübergeordnetes Pop-Up schließen = true/false (false) als harken\n\tcloseParent\n\t\n##########################################################################################################################################################################\n\n{\n    \"settings\": {\n        \"anim\": {\n            \"open\": \"fade-in\",\n            \"close\": \"fade-out\"\n        },\n        \"bg\": {\n            \"color\": \"#424242\",\n            \"alpha\": 0\n        },\n        \"pos\": {\n            \"alignTo\": \"page\"\n        }\n    }\n}\n{\n    \"settings\": {\n        \"bg\": {\n            \"color\": \"#424242\",\n            \"alpha\": 0\n        },\n        \"pos\": {\n            \"align\": \"button_bottom\",\n            \"x\": 2\n        }\n    }\n}\n{\n    \"settings\": {\n        \"bg\": {\n            \"color\": \"#424242\",\n            \"alpha\": 0\n        },\n        \"pos\": {\n            \"align\": \"button_center\",\n            \"x\": 1\n        }\n    }\n}\n{\n    \"settings\": {\n        \"anim\": {\n            \"open\": \"slide-from-bottom\",\n            \"open_duration\": 7,\n            \"close\": \"slide-to-bottom\",\n            \"close_duration\": 7\n        },\n        \"bg\": {\n            \"color\": \"#424242\",\n            \"alpha\": 0\n        },\n        \"pos\": {\n            \"align\": \"right_top\",\n            \"alignTo\": \"page\",\n            \"x\": 7,\n            \"y\": 1\n        }\n    }\n}\n{\n    \"settings\": {\n        \"anim\": {\n            \"open\": \"slide-from-right\",\n            \"open_duration\": 6,\n            \"close\": \"slide-to-right\",\n            \"close_duration\": 6\n        },\n        \"bg\": {\n            \"color\": \"#424242\",\n            \"alpha\": 0\n        },\n        \"pos\": {\n            \"align\": \"center_bottom\",\n            \"alignTo\": \"page\",\n            \"x\": 6,\n            \"y\": 1\n        },\n        \"various\": {\n            \"closeParent\": true,\n            \"pauseParent\": true\n        }\n    }\n}\n{\n    \"settings\": {\n        \"anim\": {\n            \"open\": \"slide-from-top\",\n            \"open_duration\": 5,\n            \"close\": \"slide-to-top\",\n            \"close_duration\": 5\n        },\n        \"bg\": {\n            \"color\": \"#424242\",\n            \"alpha\": 0.6\n        },\n        \"pos\": {\n            \"alignTo\": \"page\",\n            \"x\": 5,\n            \"y\": 1\n        },\n        \"various\": {\n            \"closeParent\": true,\n            \"pauseParent\": true\n        }\n    }\n}\n{\n    \"settings\": {\n        \"anim\": {\n            \"open\": \"fade-in\",\n            \"open_duration\": 2,\n            \"close\": \"fade-out\",\n            \"close_duration\": 2\n        },\n        \"bg\": {\n            \"color\": \"#424242\",\n            \"alpha\": 0.6\n        },\n        \"pos\": {\n            \"align\": \"left_bottom\",\n            \"alignTo\": \"page\",\n            \"x\": 3,\n            \"y\": 1\n        },\n        \"various\": {\n            \"closeParent\": true,\n            \"pauseParent\": true\n        }\n    }\n}\n{\n    \"settings\": {\n        \"anim\": {\n            \"open\": \"slide-down\",\n            \"open_duration\": 600,\n            \"close\": \"slide-up\",\n            \"close_duration\": 600\n        },\n        \"bg\": {\n            \"color\": \"#424242\",\n            \"alpha\": 0.6\n        },\n        \"css\": \"background-color: transparent;\",\n        \"pos\": {\n            \"alignTo\": \"parent\",\n            \"y\": 1\n        },\n        \"style\": {\n            \"border\": \"2px solid #FFFFFF\",\n            \"radius\": \"3px\",\n            \"shadow\": \"4px 5px 6px 7px rgba(0,0,0,0.6)\"\n        },\n        \"various\": {\n            \"closeAfter\": 8,\n            \"closeParent\": true,\n            \"pauseParent\": true\n        }\n    }\n}\n{\n    \"settings\": {\n        \"anim\": {\n            \"open\": \"slide-from-left\",\n            \"open_duration\": 600,\n            \"close\": \"slide-to-left\",\n            \"close_duration\": 600\n        },\n        \"bg\": {\n            \"color\": \"#424242\",\n            \"alpha\": 0.6\n        },\n        \"css\": \"background-color: transparent;\",\n        \"pos\": {\n            \"align\": \"center_top\",\n            \"alignTo\": \"page\",\n            \"x\": 1,\n            \"y\": 1\n        },\n        \"style\": {\n            \"border\": \"2px solid #FFFFFF\",\n            \"radius\": \"3px\",\n            \"shadow\": \"4px 5px 6px 7px rgba(0,0,0,0.6)\"\n        },\n        \"various\": {\n            \"closeAfter\": 8,\n            \"closeParent\": true,\n            \"pauseParent\": true\n        }\n    }\n}\n{\n    \"settings\": {\n        \"bg\": {\n            \"color\": \"#424242\",\n            \"alpha\": 0.6\n        },\n        \"css\": \"background-color: transparent;\",\n        \"pos\": {\n            \"align\": \"left_top\",\n            \"alignTo\": \"page\",\n            \"x\": 1,\n            \"y\": 1\n        },\n        \"style\": {\n            \"border\": \"2px solid #FFFFFF\",\n            \"radius\": \"3px\",\n            \"shadow\": \"4px 5px 6px 7px rgba(0,0,0,0.6)\"\n        },\n        \"various\": {\n            \"closeAfter\": 8,\n            \"closeParent\": true,\n            \"pauseParent\": true\n        }\n    }\n}\n\n",
-        "x": 140,
-        "y": 160,
-        "wires": []
-    },
-    {
-        "id": "169d6050.29549",
-        "type": "template",
-        "z": "52e05b12.b35624",
-        "d": true,
-        "name": "PopUp Tab",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "{XC_EVT}\n{\n    \"func\":\"popup\",\n    \"remote\":\"{{topic}}\",\n    \"action\":\"open\",\n    \"time\":{{time}},\n    \"popup\":\"{{payload}}\",\n    \"settings\":\"{\\\"anim\\\":{\\\"open\\\":\\\"slide-from-left\\\",\\\"open_duration\\\":600,\\\"close\\\":\\\"slide-to-left\\\",\\\"close_duration\\\":600},\\\"bg\\\":{\\\"color\\\":\\\"#424242\\\",\\\"alpha\\\":0.6},\\\"css\\\":\\\"background-color: transparent;\\\",\\\"pos\\\":{\\\"align\\\":\\\"center_top\\\",\\\"alignTo\\\":\\\"parent\\\",\\\"x\\\":1,\\\"y\\\":1},\\\"style\\\":{\\\"border\\\":\\\"2px solid #FFFFFF\\\",\\\"radius\\\":\\\"3px\\\",\\\"shadow\\\":\\\"4px 5px 6px 7px rgba(0,0,0,0.6)\\\"},\\\"various\\\":{\\\"closeAfter\\\":8,\\\"closeParent\\\":true,\\\"pauseParent\\\":true}}\"\n}\n",
-        "output": "str",
-        "x": 1210,
-        "y": 80,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "906072f7.1cd24",
         "type": "template",
         "z": "52e05b12.b35624",
@@ -1881,12 +1853,12 @@
         ]
     },
     {
-        "id": "982f854d.9b19e8",
+        "id": "b61e3be6.888218",
         "type": "subflow:52e05b12.b35624",
         "z": "8d6e1320.c587b",
         "name": "",
-        "x": 1760,
-        "y": 300,
+        "x": 1800,
+        "y": 340,
         "wires": []
     }
 ]
